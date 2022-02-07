@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+#mainScreen{
+    border: solid 5px rgb(73, 70, 70);
+    border-radius: 5px;
+    image-rendering: pixelated;
+    min-height:600px;
+    max-width:600px;
+    width:100%;
+    height:100%;
+}
